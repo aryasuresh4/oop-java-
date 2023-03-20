@@ -68,3 +68,51 @@ System.out.println("\n");
 }
 }
 }
+
+//
+Enter the number of rows for the matrices:3
+enter the number of columns for the matrices:3
+enter the elements for the matrix A:
+5
+2
+7
+3
+4
+7
+9
+1
+8
+
+
+enter the elements for the matrix B:
+1
+2
+5
+4
+8
+0
+9
+7
+10
+
+
+Matrix A is:
+5 2 7 
+
+3 4 7 
+
+9 1 8 
+
+Matrix B is:
+1 2 5 
+
+4 8 0 
+
+9 7 10 
+
+Resultant of the matrix addition is:
+6 4 12 
+
+7 12 7 
+
+18 8 18 
