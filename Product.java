@@ -44,3 +44,23 @@ public class Product
 		}		
 	}
 }
+
+// 
+the product name is:Book
+the product code is:P101
+the product price is:50.5
+
+
+the product name is:Pencil
+the product code is:P202
+the product price is:10.0
+
+
+the product name is:Pen
+the product code is:P303
+the product price is:15.2
+
+
+
+
+The price of	Pencil	 is the lowest 
