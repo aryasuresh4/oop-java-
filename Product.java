@@ -5,8 +5,8 @@ public class Product
 	public void details()
 	{
 		System.out.println("the product name is:"+pname);	
-		System.out.println("the product name is:"+pcode);
-		System.out.println("the product name is:"+price);
+		System.out.println("the product code is:"+pcode);
+		System.out.println("the product price is:"+price);
 		System.out.println("\n");
 	}
 	public static void main(String args[])
