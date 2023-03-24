@@ -62,3 +62,25 @@ class SymmetricMatrix
 		} 
 	} 
 } 
+
+output:
+Enter the number of rows for the Matrices : 3
+Enter the number of columns for the Matrices : 2
+Enter the elements for the Matrix : 
+4
+3
+5
+4
+6
+2
+
+
+The entered matrix is : 
+4 3 
+
+5 4 
+
+6 2 
+
+The entered matrix is not a Symmetric Matrix
+
