@@ -3,7 +3,8 @@ public class Student_marks
 {
 	public static void main(String args[])
 	{
-		int n,total=0,percentage;
+		int n,total=0;
+		float percentage;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter no. of subjects:");
 		n=s.nextInt();
@@ -14,20 +15,22 @@ public class Student_marks
 			marks[i]=s.nextInt();
 			total=total+marks[i];
 		}
-		percentage=total/n;
+		percentage=(total / (float)n);
 		System.out.println("Total mark obtained:"+total);
-		System.out.println("Percentage:"+percentage);
+		System.out.println("Percentage:"+percentage + "%");
 	}
 }
 
+
 //
 Enter no. of subjects:
-3
+4
 Enter marks out of 100:
 90
-72
-84
-Total mark obtained:246
-Percentage:82
+60
+88
+77
+Total mark obtained:315
+Percentage:78.75%
 
 
