@@ -20,3 +20,14 @@ public class Student_marks
 	}
 }
 
+//
+Enter no. of subjects:
+3
+Enter marks out of 100:
+90
+72
+84
+Total mark obtained:246
+Percentage:82
+
+
