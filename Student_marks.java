@@ -3,7 +3,8 @@ public class Student_marks
 {
 	public static void main(String args[])
 	{
-		int n,total=0;
+		int n;
+		float total=0;
 		float percentage;
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter no. of subjects:");
