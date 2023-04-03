@@ -12,3 +12,9 @@ String sortedString = new String(arrayOfCharacters);
 System.out.println("After Sorting :  " + sortedString);
 }
 }
+
+//
+Input String Value which should be sorted : 
+Arya
+After Sorting :  Aary
+
