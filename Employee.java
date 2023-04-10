@@ -48,3 +48,54 @@ public class Employee
     }
 }
 
+//
+Enter the No. of Employee's
+3  
+
+Enter the Employee details
+Employee number : 
+101
+Name : 
+Arya
+Salary : 
+25000
+
+Enter the Employee details
+Employee number : 
+102
+Name : 
+Anju
+Salary : 
+30000
+
+Enter the Employee details
+Employee number : 
+103
+Name : 
+Megha
+Salary : 
+50000
+
+Informations of all the employee's
+Empolyee No :101
+Name :Arya
+Salary Amount : 25000.0
+
+Empolyee No :102
+Name :Anju
+Salary Amount : 30000.0
+
+Empolyee No :103
+Name :Megha
+Salary Amount : 50000.0
+
+
+Enter the Employee Number to get details of a employee
+103
+
+Employee details
+Empolyee No :103
+Name :Megha
+Salary Amount : 50000.0
+
+
