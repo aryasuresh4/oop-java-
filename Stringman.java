@@ -14,6 +14,17 @@ System.out.println("LOWERCASE : "+str1.toLowerCase());
 System.out.println("UPPERCASE : "+str1.toUpperCase());
 System.out.println("append : "+sb);
 System.out.println("replace "+str1.replace("h","@"));
-System.out.println("indexof "+str1.indexOf("e"));
+System.out.println("indexof "+ str1.indexOf("e"));
 }
 }
+//
+Enter The String
+phenomenon
+Length of String = 10
+Character at First position  = p
+LOWERCASE : phenomenon
+UPPERCASE : PHENOMENON
+append : Helloeveryone
+replace p@enomenon
+indexof 2
+
