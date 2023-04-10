@@ -40,3 +40,10 @@ public class ArraySearchExample {
         scanner.close();
     }
 }
+
+//
+Enter the size of the array: 5
+Enter the elements of the array: 10 20 30 40 50
+Enter the element to be searched: 20
+Element found in the array.
+
