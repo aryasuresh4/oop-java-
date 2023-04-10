@@ -37,3 +37,11 @@ class arraysearch
     		}
 	}
 }
+//
+Enter the number of elements:
+5
+Enter the elements
+10 20 30 40 50
+Enter the element to be seached
+40
+Element 40 found at 3 position
