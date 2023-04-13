@@ -4,18 +4,17 @@ double length;
 int breadth;
 void setData()
  {
-   System.out.println("variables are...");
    length=12.48;
-   System.out.println("Length is: "+length);
+   System.out.println("The length of rectangle is: "+length);
    breadth=13;
-   System.out.println("Breadth is: "+breadth);
+   System.out.println("The breadth of rectangle is: "+breadth);
   }
   
 void getArea()
 {
    double area;
    area=length*breadth;
-   System.out.println("Area of rectangle: "+area);
+   System.out.println("The area of rectangle: "+area);
 }
 
 public static void main(String args[])
@@ -25,4 +24,6 @@ r1.setData();
 r1.getArea();
 }
 }
-
+//The length of rectangle i: 12.48
+The breadth of rectangle is: 13
+The area of rectangle: 162.24
