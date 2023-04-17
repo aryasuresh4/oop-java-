@@ -1,5 +1,5 @@
 import java.util.*;
- class matrix{
+ class matrixadd{
      public static void main(String[] args)
      {
          int r,c,i,j;
@@ -25,11 +25,11 @@ import java.util.*;
              for(j=0;j<c;j++)
              sum[i][j]=m1[i][j]+m2[i][j];
              System.out.println("Sum of matrix:");
-         for(i=0;i<r;i++)
+         for(i=0;i<r;i++){
          
-             for(j=0;j<c;j++)
-             System.out.println(sum[i][j]+"\t");
-             System.out.println();
-         
+             for(j=0;j<c;j++){
+             System.out.print(sum[i][j]+"\t");
+      }       System.out.println("\n");
+         }
      }
  }
