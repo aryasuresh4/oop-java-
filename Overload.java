@@ -6,7 +6,7 @@ class OverloadDemo
 
         {
 
-            System.out.println("the area of the square is "+Math.pow(x, 2)+" sq units");
+            System.out.println("The area of the square is "+Math.pow(x, 2)+" sq units");
 
         }
 
@@ -14,7 +14,7 @@ class OverloadDemo
 
         {
 
-            System.out.println("the area of the rectangle is "+x*y+" sq units");
+            System.out.println("The area of the rectangle is "+x*y+" sq units");
 
         }
 
@@ -24,7 +24,7 @@ class OverloadDemo
 
             double z = 3.14 * x * x;
 
-            System.out.println("the area of the circle is "+z+" sq units");
+            System.out.println("The area of the circle is "+z+" sq units");
 
         }
 
@@ -40,11 +40,11 @@ class OverloadDemo
 
     	   OverloadDemo ob = new OverloadDemo();
 
-    	   ob.area(1,2);
+    	   ob.area(2);
 
     	   ob.area(10,20);
 
-    	   ob.area(30,78);
+    	   ob.area(30.0);
 
             }
 
