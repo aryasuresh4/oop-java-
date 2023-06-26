@@ -1,91 +1,39 @@
-    import java.util.Scanner;
-
-interface prop
+import java.util.*;
+class shapes
 {
-    void getdata();
-    void area();
-    void perimeter();
-}
-
-class Circle implements prop
+void area(double side)
 {
-    double pi = 3.14159265359;
-    double r;
-    Scanner sc = new Scanner(System.in);
-   
-    public void getdata()
-    {
-        System.out.println("Enter the radius of the circle:");
-        r = sc.nextDouble();
-    }
-   
-    public void perimeter()
-    {
-        System.out.println("Perimeter of the circle: "+(2*pi*r));
-    }
-    
-    public void area()
-    {
-        System.out.println("Area of the circle: "+(pi*r*r));
-    }
+double square=side*side;
+System.out.println("the area of the sqare is:"+square);
 }
-
-class Rectangle implements prop
+void Area(double r)
 {
-    double l,b;
-    Scanner sc = new Scanner(System.in);
-   
-    public void getdata()
-    {
-        System.out.println("Enter the length of the rectangle:");
-        l = sc.nextDouble();
-        System.out.println("Enter the breadth of the rectangle:");
-        b = sc.nextDouble();
-    }
-   
-    public void area()
-    {
-        System.out.println("Area of a rectangle: "+(l*b));
-    }
-   
-    public void perimeter()
-    {
-        System.out.println("Perimeter of a rectangle: "+(2*(l+b)));
-    }
+double circle=3.14*r*r;
+System.out.println("the area of the circle is:"+circle);
 }
-
-public class shapes 
+void area(double l,double b)
 {
-    public static void main(String[] args) 
-    {
-        int ch;
-        Scanner sc = new Scanner(System.in);
-        Circle ob = new Circle();
-        Rectangle obj = new Rectangle();
-        do
-        {
-            System.out.println("\n1.Circle\n2.Rectangle\n3.exit");
-            System.out.println("Enter your choice:");
-            ch = sc.nextInt();
-            switch(ch)
-            {
-                case 1 :ob.getdata();
-                        ob.area();
-                        ob.perimeter();
-                        break;
-                case 2 :obj.getdata();
-                        obj.area();
-                        obj.perimeter();
-                        break;
-                case 3 :System.out.println("Exited...");
-                        System.exit(0);
-            }
-        }while(true);
-    }
+double rect=l*b;
+System.out.println("the area of the rctangle is:"+rect);
 }
-
-
-
-
-           
-   
+public static void main(String args[])
+{
+shapes obj = new shapes();
+Scanner sc = new Scanner(System.in);
+System.out.println(" Area of different shapes using overloaded functions ");
+System.out.println("\nRECTANGLE");
+System.out.println("Enter the length and breadth:");
+double l = sc.nextDouble();
+double b = sc.nextDouble();
+obj.area(l,b);
+System.out.println("\nSQUARE");
+System.out.println("Enter the side:");
+double s = sc.nextDouble();
+obj.area(s);
+System.out.println("\nCIRCLE");
+System.out.println("Enter the radius:");
+double r = sc.nextDouble();
+obj.area(r);
+sc.close();
+}
+}
